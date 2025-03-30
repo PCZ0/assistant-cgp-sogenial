@@ -4,5 +4,13 @@
     "pages/api/**/*.js": {
       "runtime": "nodejs18.x"
     }
-  }
+  },
+  "builds": [],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/pages/api/$1.js"
+    }
+  ],
+  "outputDirectory": ""
 }
