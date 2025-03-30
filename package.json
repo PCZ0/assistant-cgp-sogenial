@@ -1,5 +1,10 @@
 {
   "name": "assistant-cgp-sogenial",
   "version": "1.0.0",
-  "dependencies": {}
+  "scripts": {
+    "build": "echo 'Build step for Vercel only - no actual build needed'"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
 }
