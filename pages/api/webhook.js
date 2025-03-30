@@ -1,3 +1,6 @@
+import dotenv from "dotenv";
+dotenv.config();
+
 export default function handler(req, res) {
   if (req.method === "GET") {
     const mode = req.query["hub.mode"];
