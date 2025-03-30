@@ -1,10 +1,6 @@
-export const config = {
-  api: {
-    bodyParser: true,
-  },
-};
+console.log("🔄 Redeploy triggered");
 
-export default function handler(req, res) {
+module.exports = function handler(req, res) {
   if (req.method === "GET") {
     const mode = req.query["hub.mode"];
     const token = req.query["hub.verify_token"];
@@ -24,4 +20,4 @@ export default function handler(req, res) {
   }
 
   res.sendStatus(404);
-}
+};

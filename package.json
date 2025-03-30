@@ -1,7 +1,6 @@
 {
   "name": "assistant-cgp-sogenial",
   "version": "1.0.0",
-  "type": "module",
   "scripts": {
     "build": "echo 'Build step for Vercel only - no actual build needed'"
   },
