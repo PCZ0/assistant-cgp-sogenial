@@ -1,4 +1,8 @@
-console.log("🔄 Redeploy triggered");
+export const config = {
+  api: {
+    bodyParser: true,
+  },
+};
 
 export default function handler(req, res) {
   if (req.method === "GET") {
