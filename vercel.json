@@ -1,8 +1,9 @@
 {
   "version": 2,
   "functions": {
-    "pages/api/**/*.js": {
-      "runtime": "nodejs18.x"
+    "pages/api/*.js": {
+      "runtime": "nodejs18.x",
+      "maxDuration": 10
     }
   }
 }
